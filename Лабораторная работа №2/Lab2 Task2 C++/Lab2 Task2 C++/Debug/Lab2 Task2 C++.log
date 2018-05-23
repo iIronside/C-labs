@@ -1,0 +1,24 @@
+﻿Построение начато 15.12.2016 21:41:16.
+     1>Проект "D:\Мои документы\Програмирование 2-й курс\Лабораторная работа №2\Lab2 Task2 C++\Lab2 Task2 C++\Lab2 Task2 C++.vcxproj" в узле 2 (целевые объекты build).
+     1>PrepareForBuild:
+         Создание каталога "D:\Мои документы\Програмирование 2-й курс\Лабораторная работа №2\Lab2 Task2 C++\Debug\".
+       InitializeBuildStatus:
+         Создание "Debug\Lab2 Task2 C++.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Fraction.cpp main.cpp
+         main.cpp
+         Fraction.cpp
+     1>d:\мои документы\програмирование 2-й курс\лабораторная работа №2\lab2 task2 c++\lab2 task2 c++\fraction.cpp(83): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+         Создание кода...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Lab2 Task2 C++.exe.embed.manifest.res" "Debug\Lab2 Task2 C++_manifest.rc" 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Мои документы\Програмирование 2-й курс\Лабораторная работа №2\Lab2 Task2 C++\Debug\Lab2 Task2 C++.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Lab2 Task2 C++.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Мои документы\Програмирование 2-й курс\Лабораторная работа №2\Lab2 Task2 C++\Debug\Lab2 Task2 C++.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Мои документы\Програмирование 2-й курс\Лабораторная работа №2\Lab2 Task2 C++\Debug\Lab2 Task2 C++.lib" /MACHINE:X86 "Debug\Lab2 Task2 C++.exe.embed.manifest.res"
+         Debug\Fraction.obj
+         Debug\main.obj
+     1>LINK : fatal error LNK1123: сбой при преобразовании в COFF: файл недопустим или поврежден
+     1>Построение проекта "D:\Мои документы\Програмирование 2-й курс\Лабораторная работа №2\Lab2 Task2 C++\Lab2 Task2 C++\Lab2 Task2 C++.vcxproj" завершено (целевые объекты build) с ошибкой.
+
+СБОЙ построения.
+
+Затраченное время: 00:00:02.05

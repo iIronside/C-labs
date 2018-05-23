@@ -1,0 +1,8 @@
+﻿  main.cpp
+e:\my documents\програмирование 2-й курс\лабораторная работа №1\task 1\task 1\main.cpp(8): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Создание кода
+  0 of 8 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  Task 1.vcxproj -> E:\My documents\Програмирование 2-й курс\Лабораторная работа №1\Task 1\Release\Task 1.exe

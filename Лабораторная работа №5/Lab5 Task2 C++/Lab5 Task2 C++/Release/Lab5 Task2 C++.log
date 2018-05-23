@@ -1,0 +1,32 @@
+﻿Построение начато 24.12.2016 16:04:15.
+     1>Проект "D:\Мои документы\Програмирование 2-й курс\Лабораторная работа №5\Lab5 Task2 C++\Lab5 Task2 C++\Lab5 Task2 C++.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Обращение к "Release\Lab5 Task2 C++.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt WordsParser.cpp
+         WordsParser.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\algorithm(1311): error C2446: ==: нет преобразования "const char *" в "int"
+                 Не существует контекста, в котором такое преобразование возможно
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\algorithm(1322): см. ссылку на создание экземпляров функции шаблон при компиляции "void std::_Replace<char*,const char[2]>(_FwdIt,_FwdIt,_Ty (&),_Ty (&))"
+                 with
+                 [
+                     _FwdIt=char *,
+                     _Ty=const char [2]
+                 ]
+                 WordsParser.cpp(33): см. ссылку на создание экземпляров функции шаблон при компиляции "void std::replace<std::_String_iterator<_Elem,_Traits,_Alloc>,const char[2]>(_FwdIt,_FwdIt,_Ty (&),_Ty (&))"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>,
+                     _FwdIt=std::_String_iterator<char,std::char_traits<char>,std::allocator<char>>,
+                     _Ty=const char [2]
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\algorithm(1311): error C2040: ==: "int" отличается по уровням косвенного обращения от "const char [2]"
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\algorithm(1312): error C2440: =: невозможно преобразовать "const char [2]" в "char"
+                 Не существует контекста, в котором такое преобразование возможно
+     1>Построение проекта "D:\Мои документы\Програмирование 2-й курс\Лабораторная работа №5\Lab5 Task2 C++\Lab5 Task2 C++\Lab5 Task2 C++.vcxproj" завершено (целевые объекты build) с ошибкой.
+
+СБОЙ построения.
+
+Затраченное время: 00:00:00.71
